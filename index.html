@@ -113,19 +113,19 @@ p.t{font-size:1.05rem;line-height:1.5;opacity:.92}
 </style>
 </head>
 <body>
-<audio id="bgm" src="LEVEL.mp3" loop preload="auto"></audio>
+<audio id="bgm" src="music.mp3" loop preload="auto"></audio>
 <div id="phone">
  <div class="bg" id="b0"></div><div class="bg" id="b1"></div><div class="shade"></div>
  <div id="start">
   <span class="tag">New story</span>
-  <h1>Heyy Pakhii🕊️ <br>this one is<br>for you.</h1>
-  <p>Two years of us, from Jamai</p>
+  <h1>Heyyy Pakhii🕊️,<br>this one is<br>for you.</h1>
+  <p>Two years of us, from Rimon.</p>
   <button class="cta" id="go">Open story</button>
  </div>
  <div id="bars"></div>
  <div id="who">
-  <div class="av"><span>R&amp;P</span></div>
-  <div class="nm"><div>Rimon 💫 Pranty <svg class="vf" viewBox="0 0 24 24"><path d="M12 1l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3L21.4 14l-2.6 1.9-1 3-3.2-.1L12 21l-2.6-1.9-3.2.1-1-3L2.6 14l1-3-1-3 2.6-1.9 1-3 3.2.1L12 1zm-1.2 13.6l5.2-5.2-1.2-1.2-4 4-1.8-1.8-1.2 1.2 3 3z"/></svg><small>2 years ago</small></div></div>
+  <div class="av"><span>P&amp;R</span></div>
+  <div class="nm"><div>Pranty 💫 Rimon <svg class="vf" viewBox="0 0 24 24"><path d="M12 1l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3L21.4 14l-2.6 1.9-1 3-3.2-.1L12 21l-2.6-1.9-3.2.1-1-3L2.6 14l1-3-1-3 2.6-1.9 1-3 3.2.1L12 1zm-1.2 13.6l5.2-5.2-1.2-1.2-4 4-1.8-1.8-1.2 1.2 3 3z"/></svg><small>2 years ago</small></div></div>
   <button class="ib" id="snd" aria-label="Music on or off"></button>
   <button class="ib" id="eye" aria-label="View full photo"></button>
  </div>
@@ -145,26 +145,26 @@ var G=['linear-gradient(160deg,#4f5bd5,#962fbf)','linear-gradient(160deg,#d62976
 var SLIDES=[
  {type:'cover',img:'images/23.jpeg',g:G[1]},
  {type:'photo',img:'images/27.jpeg',g:G[0],chip:'Where it all began',title:'The day we met',story:'Some days look ordinary until someone walks in and quietly changes everything. That day was you.',note:'One look, and my heart already knew.'},
- {type:'photo',img:'images/3.jpeg',g:G[1],title:'Our first date',story:'My hands were shaking and I forgot everything what I planned to say.',note:'The best Auto ride of my life.'},
- {type:'photo',img:'images/11.jpeg',g:G[2],chip:'With Pranty',title:'Our best day',story:'Just us laughing at nothing for hours. I did not want that day to end.',note:'Perfect, because it was with you.'},
+ {type:'photo',img:'images/3.jpeg',g:G[1],title:'Our first date',story:'My hands were shaking and I forgot half of what I planned to say. Then you smiled, and I was calm.',note:'The best nervous night of my life.'},
+ {type:'photo',img:'images/11.jpeg',g:G[2],chip:'With Pranty',title:'Our best day',story:'No big plans, just us laughing at nothing for hours. I did not want that day to end.',note:'Perfect, because it was with you.'},
  {type:'list',img:'images/8.jpeg',g:G[3],soft:true,dur:10000,title:'Things I love about you',items:['Your smile','The way you care for me','Your silly jokes','How you never give up on us']},
  {type:'photo',img:'images/17.jpeg',g:G[0],title:'You make me laugh',story:'Nobody makes me laugh until I cry like you do, usually over something only the two of us understand.',note:'Our private joke, forever.'},
  {type:'photo',img:'images/13.jpeg',g:G[1],chip:'Next stop: anywhere',title:'Our adventure',story:'The place never matters. The road just feels shorter with you next to me.',note:'Take me anywhere, as long as it is with you.'},
- {type:'note',img:'images/21.jpeg',g:G[2],soft:true,dur:11000,title:'My promises',lines:['I promise to listen, even when I am tired.','I promise to make you laugh every week.','I promise to hold your hand through everything 💍']},
+ {type:'note',img:'images/21.jpeg',g:G[2],soft:true,dur:11000,title:'My promises',lines:['I promise to listen, even when I am tired.','I promise to make you laugh every week.','I promise to hold your hand through everything.']},
  {type:'poll',img:'images/12.jpeg',g:G[3],soft:true},
- {type:'photo',img:'images/28.jpeg',g:G[0],title:'A little moment',story:'Not every memory is loud. Some are just you, quiet beside me, and everything feels right.',note:'The Kayaking things are my favourite 🫠'},
- {type:'photo',img:'images/22.jpeg',g:G[1],title:'You and me',story:'Two years in, and I still look at you the way I did at the start. Maybe even more.',note:'You and me, always 🦋.'},
- {type:'wall',img:'images/19.jpeg',g:G[2],soft:true,dur:9000},
- {type:'stat',img:'images/16.jpeg',g:G[2],soft:true},
- {type:'photo',img:'images/24.jpeg',g:G[3],title:'Still choosing you',story:'Prantyy, thank you for every single day. I love you sooo muchhh!!! ',note:'Always you 💋'},
+ {type:'photo',img:'images/28.jpeg',g:G[0],title:'A little moment',story:'Not every memory is loud. Some are just you, quiet beside me, and everything feels right.',note:'The small things are my favourite.'},
+ {type:'photo',img:'images/22.jpeg',g:G[1],title:'You and me',story:'Two years in, and I still look at you the way I did at the start. Maybe even more.',note:'You and me, always.'},
+ {type:'wall',img:'images/22.jpeg',g:G[2],soft:true,dur:9000},
+ {type:'stat',img:'images/22.jpeg',g:G[2],soft:true},
+ {type:'photo',img:'images/24.jpeg',g:G[3],title:'Still choosing you',story:'Pranty, thank you for every single day. I love you ',note:'Always you. Love, Rimon'},
  {type:'meter',img:'images/7.jpeg',g:G[0],soft:true},
- {type:'end',img:'images/29.jpeg',g:G[1],soft:true}
+ {type:'end',img:'images/5.jpeg',g:G[1],soft:true}
 ];
 var WALL=[],WALLC={};SLIDES.forEach(function(x){if(x.type==='photo'&&WALL.indexOf(x.img)<0){WALL.push(x.img);WALLC[x.img]=x}});
-var QUESTION='Prantyy, will you be mine for year three and every year after?';
+var QUESTION='Pranty, will you be mine for year three and every year after?';
 var START_NOTE='Say yes, and I will make year three even better.';
 var NO_NOTES=['Wait, look at this day again. Are you sure?','Look at this smile. Please think again.','You are making my heart cry a little.','One more photo. Now say yes?','The No button is getting tired.','Fine. Only one button left now.'];
-var YES_NOTE='I love you Prantyyy. Happy 2nd anniversary✨ - Jamai';
+var YES_NOTE='I love you, Pranty. Happy 2nd anniversary. - Rimon';
 var DUR=7000; /* milliseconds each slide stays */
 /* ===================== */
 var ICON={
@@ -187,25 +187,46 @@ function pop(n){for(var k=0;k<n;k++){var s=document.createElement('span'),c=COLO
  s.style.left=Math.random()*100+'vw';s.style.animationDuration=(2.2+Math.random()*3)+'s';s.style.animationDelay=Math.random()*.8+'s';
  document.body.appendChild(s);setTimeout(function(e){e.remove()},7000,s)}}
 function stop(e){e.stopPropagation()}
-var twT,FOLDERS=['images/','image/','img/','Images/',''],EXTS=['jpeg','jpg','png','webp','JPG','JPEG','PNG','jfif'],RES={},tok=0;
+var twT,FOLDERS=['images/','Images/','image/','img/',''],EXTS=['jpeg','jpg','png','webp','JPG','JPEG','PNG'],RES={},DEC={},PEND={},tok=0,imgReady=true;
+/* find the real file name (tries the exact path first, then other folders and extensions) */
 function findImg(path,cb){
- if(RES[path]!==undefined){cb(RES[path]);return}
+ if(RES[path]){cb(RES[path]);return}
  var name=path.split('/').pop().replace(/\.[A-Za-z]+$/,''),list=[];
  FOLDERS.forEach(function(f){EXTS.forEach(function(x){list.push(f+name+'.'+x)})});
  var n=0;(function next(){
-  if(n>=list.length){RES[path]=null;console.warn('Photo not found for',path);cb(null);return}
+  if(n>=list.length){console.warn('Photo not found for',path);cb(null);return}
   var u=list[n++],im=new Image();im.onload=function(){RES[path]=u;cb(u)};im.onerror=next;im.src=u})();
+}
+/* download AND decode a photo, so it paints instantly when its slide opens */
+function loadPic(path,cb){
+ if(DEC[path]){cb(DEC[path]);return}
+ if(PEND[path]){PEND[path].push(cb);return}
+ PEND[path]=[cb];
+ function fin(v){var l=PEND[path];delete PEND[path];if(v)DEC[path]=v;l.forEach(function(f){f(v)})}
+ findImg(path,function(u){
+  if(!u){fin(null);return}
+  var im=new Image();im.src=u;
+  if(im.decode)im.decode().then(function(){fin(u)},function(){fin(u)});else fin(u)})
 }
 function setBg(s){
  var nx=layers[cur],old=layers[1-cur],my=++tok;cur=1-cur;
  nx.style.background=s.g;
  nx.className='bg'+(s.soft?' soft':'');void nx.offsetWidth;nx.className+=' on';
  old.className=old.className.replace(' on','');
- if(s.img)findImg(s.img,function(u){
-  if(u&&my===tok)nx.style.background="url('"+u+"') center/cover no-repeat,"+s.g;
-  if(!u&&my===tok&&location.search.indexOf('debug')>-1){var m=document.createElement('div');m.style.cssText='position:absolute;z-index:8;left:1rem;right:1rem;bottom:5rem;background:#000c;padding:.5rem .8rem;border-radius:10px;font-size:.8rem';m.textContent='Photo not found: '+s.img;st.appendChild(m)}
- })
+ imgReady=!s.img||!!DEC[s.img];
+ if(s.img){
+  loadPic(s.img,function(u){
+   if(my!==tok)return;
+   if(u)nx.style.background="url('"+u+"') center/cover no-repeat,"+s.g;
+   imgReady=true;
+   if(!u&&location.search.indexOf('debug')>-1){var m=document.createElement('div');m.style.cssText='position:absolute;z-index:8;left:1rem;right:1rem;bottom:5rem;background:#000c;padding:.5rem .8rem;border-radius:10px;font-size:.8rem';m.textContent='Photo not found: '+s.img;st.appendChild(m)}
+  });
+  setTimeout(function(){if(my===tok)imgReady=true},6000)
+ }
 }
+/* start downloading every photo right away (while the start screen is showing) */
+(function(){var list=[];SLIDES.forEach(function(x){if(x.img&&list.indexOf(x.img)<0)list.push(x.img)});
+ var k=0;function nxt(){if(k>=list.length)return;loadPic(list[k++],nxt)}nxt();nxt();nxt()})();
 
 function render(){
  clearInterval(twT);
@@ -249,7 +270,7 @@ function render(){
 function go(n){if(viewing)setView(false);if(n<0)n=0;if(n>=SLIDES.length)n=SLIDES.length-1;if(n===i)return;i=n;render()}
 setInterval(function(){
  var t=SLIDES[i].type;
- if(!started||paused||reduce||t==='meter'||t==='end'||t==='poll')return;
+ if(!started||paused||reduce||!imgReady||t==='meter'||t==='end'||t==='poll')return;
  prog+=50;bars.children[i].firstChild.style.width=Math.min(100,prog/(SLIDES[i].dur||DUR)*100)+'%';
  if(prog>=(SLIDES[i].dur||DUR))go(i+1)},50);
 
